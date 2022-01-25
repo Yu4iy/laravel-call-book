@@ -1,0 +1,45 @@
+.call-book {
+	&__list {
+		li{
+			background-color: rgb(119, 122, 165);
+		}
+		li:nth-child(even) {
+			background: rgb(102, 102, 151);
+		 }
+	}
+
+	&__item {
+		width: 100%;
+		padding: 10px 10px;
+		display: flex;
+		border: 1px solid rgba(128, 128, 128, 0.308);
+		
+	}
+	span{
+		flex: 1 1 auto;
+		font-weight: 700;
+		color: #fff;
+	}
+
+	&__id {
+	}
+
+	&__name {
+
+
+	}
+
+	&__phone {
+		a{
+
+			color: #fff;
+			text-decoration: none;
+		}
+
+	}
+
+	&__mail {
+
+
+	}
+}

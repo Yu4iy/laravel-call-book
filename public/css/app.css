@@ -1,0 +1,55 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.header {
+  width: 100%;
+  height: 80px;
+  background-color: #383257;
+  color: #fff;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer {
+  width: 100%;
+  height: 80px;
+  background-color: #383257;
+  color: #fff;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.call-book__list li {
+  background-color: #777aa5;
+}
+
+.call-book__list li:nth-child(even) {
+  background: #666697;
+}
+
+.call-book__item {
+  width: 100%;
+  padding: 10px 10px;
+  display: flex;
+  border: 1px solid rgba(128, 128, 128, 0.308);
+}
+
+.call-book span {
+  flex: 1 1 auto;
+  font-weight: 700;
+  color: #fff;
+}
+
+.call-book__phone a {
+  color: #fff;
+  text-decoration: none;
+}
+
