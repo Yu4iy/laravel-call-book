@@ -1,5 +1,7 @@
 .call-book {
 	background:rgb(67, 70, 99);
+	padding: 80px 0;
+
 	&__list {
 		li{
 			background-color: rgb(119, 122, 165);
@@ -8,6 +10,10 @@
 			background: rgb(102, 102, 151);
 		 }
 	}
+	.label{
+		background-color: rgb(77, 77, 121);
+		padding: 20px 10px;
+	  }
 
 	&__item {
 		width: 100%;
@@ -23,18 +29,18 @@
 	}
 
 	&__id {
-		flex: 1 1 25%;
+		flex: 1 1 10%;
 	
 	}
 
 	&__name {
-		flex: 1 1 25%;
+		flex: 1 1 30%;
 
 
 	}
 
 	&__phone {
-		flex: 1 1 25%;
+		flex: 1 1 30%;
 
 		a{
 
@@ -45,7 +51,7 @@
 	}
 
 	&__mail {
-		flex: 1 1 25%;
+		flex: 1 1 30%;
 
 
 	}

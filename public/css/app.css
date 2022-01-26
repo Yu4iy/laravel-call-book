@@ -34,6 +34,7 @@
 
 .call-book {
   background: #434663;
+  padding: 80px 0;
 }
 
 .call-book__list li {
@@ -42,6 +43,11 @@
 
 .call-book__list li:nth-child(even) {
   background: #666697;
+}
+
+.call-book .label {
+  background-color: #4d4d79;
+  padding: 20px 10px;
 }
 
 .call-book__item {
@@ -58,15 +64,15 @@
 }
 
 .call-book__id {
-  flex: 1 1 25%;
+  flex: 1 1 10%;
 }
 
 .call-book__name {
-  flex: 1 1 25%;
+  flex: 1 1 30%;
 }
 
 .call-book__phone {
-  flex: 1 1 25%;
+  flex: 1 1 30%;
 }
 
 .call-book__phone a {
@@ -75,6 +81,6 @@
 }
 
 .call-book__mail {
-  flex: 1 1 25%;
+  flex: 1 1 30%;
 }
 
